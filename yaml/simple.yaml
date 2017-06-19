@@ -12,6 +12,20 @@ mirko:
     - !!python/object/new:geometry_msgs.msg._Point.Point
       state: [2.0, 2.0, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+      state: [0.0, 0.0, -0.707, 0.707]
+- !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
+  state:
+  - !!python/object/new:std_msgs.msg._Header.Header
+    state:
+    - 0
+    - !!python/object/new:genpy.rostime.Time
+      state: [0, 0]
+    - 'world'
+  - !!python/object/new:geometry_msgs.msg._Pose.Pose
+    state:
+    - !!python/object/new:geometry_msgs.msg._Point.Point
+      state: [11.25, 11.25, 0.0]
+    - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
       state: [0.0, 0.0, 0.707, 0.707]
 - !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
   state:
@@ -24,7 +38,21 @@ mirko:
   - !!python/object/new:geometry_msgs.msg._Pose.Pose
     state:
     - !!python/object/new:geometry_msgs.msg._Point.Point
-      state: [3.0, 4.0, 0.0]
+      state: [2.0, 11.25, 0.0]
+    - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+      state: [0.0, 0.0, 0.707, 0.707]
+- !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
+  state:
+  - !!python/object/new:std_msgs.msg._Header.Header
+    state:
+    - 0
+    - !!python/object/new:genpy.rostime.Time
+      state: [0, 0]
+    - 'world'
+  - !!python/object/new:geometry_msgs.msg._Pose.Pose
+    state:
+    - !!python/object/new:geometry_msgs.msg._Point.Point
+      state: [11.25, 2.25, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
       state: [0.0, 0.0, 0.707, 0.707]
 slavko:
@@ -39,7 +67,21 @@ slavko:
   - !!python/object/new:geometry_msgs.msg._Pose.Pose
     state:
     - !!python/object/new:geometry_msgs.msg._Point.Point
-      state: [3.0, 2.0, 0.0]
+      state: [11.25, 2.25, 0.0]
+    - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+      state: [0.0, 0.0, -0.707, 0.707]
+- !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
+  state:
+  - !!python/object/new:std_msgs.msg._Header.Header
+    state:
+    - 0
+    - !!python/object/new:genpy.rostime.Time
+      state: [0, 0]
+    - 'world'
+  - !!python/object/new:geometry_msgs.msg._Pose.Pose
+    state:
+    - !!python/object/new:geometry_msgs.msg._Point.Point
+      state: [2.0, 11.25, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
       state: [0.0, 0.0, 0.707, 0.707]
 - !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
@@ -53,7 +95,21 @@ slavko:
   - !!python/object/new:geometry_msgs.msg._Pose.Pose
     state:
     - !!python/object/new:geometry_msgs.msg._Point.Point
-      state: [2.0, 4.0, 0.0]
+      state: [11.25, 11.25, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
       state: [0.0, 0.0, 0.707, 0.707]
+- !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
+  state:
+  - !!python/object/new:std_msgs.msg._Header.Header
+    state:
+    - 0
+    - !!python/object/new:genpy.rostime.Time
+      state: [0, 0]
+    - 'world'
+  - !!python/object/new:geometry_msgs.msg._Pose.Pose
+    state:
+    - !!python/object/new:geometry_msgs.msg._Point.Point
+      state: [2.0, 2.0, 0.0]
+    - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
+      state: [0.0, 0.0, -0.707, 0.707]
 

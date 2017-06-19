@@ -32,7 +32,7 @@ if __name__ == '__main__':
     missions = yaml.load(f)
     pub_thread = dict()
 
-    rospy.sleep(20)
+    rospy.sleep(40)
 
     for robot in robot_list:
         pub_thread[robot] = FuncThread(mission_publisher, missions[robot], robot)
