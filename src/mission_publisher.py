@@ -25,7 +25,7 @@ def mission_publisher(pose_list, robot_name):
 
 if __name__ == '__main__':
     rospy.init_node("mission_publisher_node", log_level=rospy.INFO)
-    mission_file = rospy.get_param('mission_file')
+    mission_file = rospy.get_param('missions_file')
     robot_list = rospy.get_param('robot_list')
 
     f = open(mission_file)

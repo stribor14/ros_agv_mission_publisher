@@ -10,9 +10,9 @@ mirko:
   - !!python/object/new:geometry_msgs.msg._Pose.Pose
     state:
     - !!python/object/new:geometry_msgs.msg._Point.Point
-      state: [9.5, 3.0, 0.0]
+      state: [0.5, 3.0, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
-      state: [0.0, 0.0, 0.0, 1.0]
+      state: [0.0, 0.0, 1.0, 0.0]
 - !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
   state:
   - !!python/object/new:std_msgs.msg._Header.Header
@@ -24,7 +24,7 @@ mirko:
   - !!python/object/new:geometry_msgs.msg._Pose.Pose
     state:
     - !!python/object/new:geometry_msgs.msg._Point.Point
-      state: [10.5, 7.0, 0.0]
+      state: [9.5, 3.0, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
       state: [0.0, 0.0, 0.0, 1.0]
 - !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
@@ -52,9 +52,9 @@ mirko:
   - !!python/object/new:geometry_msgs.msg._Pose.Pose
     state:
     - !!python/object/new:geometry_msgs.msg._Point.Point
-      state: [0.5, 3.0, 0.0]
+      state: [10.5, 7.0, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
-      state: [0.0, 0.0, 1.0, 0.0]
+      state: [0.0, 0.0, 0.0, 1.0]
 slavko:
 - !!python/object/new:geometry_msgs.msg._PoseStamped.PoseStamped
   state:
@@ -109,7 +109,7 @@ slavko:
   - !!python/object/new:geometry_msgs.msg._Pose.Pose
     state:
     - !!python/object/new:geometry_msgs.msg._Point.Point
-      state: [0.5, 3.0, 0.0]
+      state: [0.5, 8.0, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
       state: [0.0, 0.0, 1.0, 0.0]
 maxo:
@@ -166,7 +166,7 @@ maxo:
   - !!python/object/new:geometry_msgs.msg._Pose.Pose
     state:
     - !!python/object/new:geometry_msgs.msg._Point.Point
-      state: [0.5, 8.0, 0.0]
+      state: [9.5, 3.0, 0.0]
     - !!python/object/new:geometry_msgs.msg._Quaternion.Quaternion
-      state: [0.0, 0.0, 1.0, 0.0]
+      state: [0.0, 0.0, 0.0, 1.0]
       
